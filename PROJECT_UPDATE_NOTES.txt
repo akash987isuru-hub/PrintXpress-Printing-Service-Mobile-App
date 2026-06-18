@@ -1,0 +1,18 @@
+PrintXpress updated by ChatGPT
+
+Main updates included:
+1. Modern customer Home UI with rounded cards, gradient promotion banner, styled search box, and dynamic Firestore categories.
+2. Customer dashboard promotion banner now loads the latest admin-created promotion from Firestore promotions collection.
+3. Added dummy card Payment screen.
+4. Order Summary now goes to Payment instead of saving the order directly.
+5. Payment success saves the order to Firestore orders collection with paymentStatus, paymentMethod, cardLast4, and paidAt.
+6. After successful payment, the app automatically opens My Orders page.
+7. My Orders page redesigned with order cards, order status, payment status, total amount, and tap-to-view tracking.
+8. Order Tracking and Admin Order Details now show payment details.
+9. Product Details Add to Cart button is hidden to avoid confusion because My Orders is now based on placed orders.
+
+Important prototype note:
+- Payment is dummy/simulated only. No real card payment gateway is connected.
+- Firebase Storage is not used because the project asked to avoid upgrading billing. Design file name and instructions are saved with orders.
+
+Could not fully run Gradle build inside this sandbox because the Gradle wrapper attempted to download Gradle from services.gradle.org, but internet access is blocked here. XML files were checked for parse errors successfully.

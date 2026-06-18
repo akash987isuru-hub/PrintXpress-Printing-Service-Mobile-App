@@ -1,0 +1,28 @@
+PrintXpress animation + professional UI update
+
+Added:
+1. SplashActivity with animated PrintXpress logo and loading screen.
+2. Global activity transition animations for page navigation.
+3. Modern Login and Register UI layouts.
+4. Professional splash/login drawable backgrounds.
+5. Customer Support navigation from HomeActivity is connected.
+6. Existing dynamic categories, promotions, My Orders, dummy payment, admin/staff functions are kept.
+
+Important files added/updated:
+- SplashActivity.java
+- activity_splash.xml
+- activity_login.xml
+- activity_register.xml
+- AndroidManifest.xml
+- themes.xml and values-night/themes.xml
+- res/anim/*.xml
+- res/drawable/bg_splash_gradient.xml
+- res/drawable/bg_splash_logo.xml
+- res/drawable/bg_login_card.xml
+- res/drawable/bg_link_button.xml
+
+Run steps:
+1. Open project in Android Studio.
+2. Sync Project with Gradle Files.
+3. Run app.
+4. App opens Splash screen first, then Login screen.

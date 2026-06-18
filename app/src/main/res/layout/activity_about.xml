@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen"
+    android:fillViewport="true"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About PrintXpress"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_primary"
+            android:layout_marginTop="22dp"
+            tools:ignore="HardcodedText,Typos" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your trusted digital printing partner"
+            android:textSize="15sp"
+            android:textColor="@color/px_muted"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="18dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_card"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Overview"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/px_primary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5dp"
+                android:text="PrintXpress is a customer-focused printing service app designed to make ordering business cards, flyers, posters, banners, t-shirts and mugs simple, fast and organized."
+                android:textColor="@color/px_text"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,Typos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_white_card"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/px_primary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5dp"
+                android:text="- Business card printing\n- Flyer and poster printing\n- Banner printing\n- T-shirt customization\n- Mug printing\n- Design review and customer support"
+                android:textColor="@color/px_text"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_total_card"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Information"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/px_primary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5dp"
+                android:text="Email: support@printxpress.lk\nPhone: +94 77 000 0000\nLocation: PrintXpress Shop\nOpen: Monday to Saturday, 9.00 AM - 6.00 PM"
+                android:textColor="@color/px_text"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,Typos" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBackAbout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/back_to_home"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>

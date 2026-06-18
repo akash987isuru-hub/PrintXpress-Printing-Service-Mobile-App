@@ -1,0 +1,20 @@
+PrintXpress Professional Theme Update
+
+Updated items:
+1. Customer Home dashboard redesigned with a single professional PrintXpress theme.
+2. Admin Dashboard redesigned with the same color system, card style and navigation pattern.
+3. Added About PrintXpress feature for customer dashboard.
+4. Connected AboutActivity from HomeActivity.
+5. Removed direct emoji characters from XML layouts to reduce Android Studio Layout Preview / Palette render issues.
+6. Added/updated safe drawable resources for cards, buttons, icon boxes and app backgrounds.
+7. Updated colors.xml and strings.xml for a cleaner app-wide theme foundation.
+8. Kept Firebase flows for categories, products, orders, promotions and support queries.
+9. XML files were parsed successfully after update.
+
+Important:
+- If Android Studio Design/Blueprint preview is still blank, run:
+  File > Sync Project with Gradle Files
+  Build > Clean Project
+  Build > Rebuild Project
+  File > Invalidate Caches > Invalidate and Restart
+- The sandbox environment could not run Gradle because it could not download the Gradle distribution from the internet.

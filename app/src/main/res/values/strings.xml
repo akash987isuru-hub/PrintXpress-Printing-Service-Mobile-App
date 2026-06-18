@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PrintXpress</string>
+    <string name="welcome_printxpress">Welcome to PrintXpress</string>
+    <string name="print_ideas_easily">Print your ideas easily</string>
+    <string name="search_printing_products">Search printing products</string>
+    <string name="special_offer_default">Special Offer\nCheck our latest printing offers</string>
+    <string name="my_orders">My Orders</string>
+    <string name="view_orders_status">View your placed orders and status</string>
+    <string name="support">Support</string>
+    <string name="support_description">Submit queries and view admin replies</string>
+    <string name="guidelines">Guidelines</string>
+    <string name="guidelines_description">Read order, design and payment instructions</string>
+    <string name="about_printxpress">About PrintXpress</string>
+    <string name="about_description">View company details and services</string>
+    <string name="product_categories">Product Categories</string>
+    <string name="logout">Logout</string>
+    <string name="back_to_home">Back to Home</string>
+</resources>

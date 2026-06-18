@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Order Status"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_primary"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a customer order to update progress"
+            android:textSize="15sp"
+            android:textColor="@color/px_muted"
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout
+            android:id="@+id/adminOrdersContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="22dp" />
+
+        <Button
+            android:id="@+id/btnRefreshAdminOrders"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Refresh Orders"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnBackAdminFromOrders"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Back to Admin Dashboard"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+</ScrollView>

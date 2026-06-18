@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB"
+    android:fillViewport="true"
+    tools:context=".GuidelinesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- Page Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company Guidelines"
+            android:textColor="#123E91"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please read these instructions before placing an order."
+            android:textColor="#6B7280"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="18dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Important Note Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Important Notice"
+                android:textColor="#123E91"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PrintXpress uses dummy card payment for this prototype. Please do not enter real bank card details."
+                android:textColor="#1F2937"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="8dp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <!-- Guidelines Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order Instructions"
+                android:textColor="#123E91"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="7dp"
+                android:text="1. Upload clear JPG, PNG or PDF design files only.&#10;&#10;2. Make sure your selected product size, material and quantity are correct before placing the order.&#10;&#10;3. The uploaded file name and design instructions will be saved with your order.&#10;&#10;4. Dummy card payment is used only for prototype testing. Do not enter real card details.&#10;&#10;5. After successful payment, your order will automatically appear in My Orders.&#10;&#10;6. You can check your order status from My Orders. Status may be Pending, Processing, Processing, Ready, Complete or Cancelled.&#10;&#10;7. If you need design changes, delivery changes or help, use the Support section.&#10;&#10;8. Orders can be collected from the PrintXpress shop or delivered based on the selected delivery method.&#10;&#10;9. Please enter correct delivery address and contact number for home delivery.&#10;&#10;10. PrintXpress staff will review your design instructions before processing the order."
+                android:textColor="#1F2937"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <!-- Rounded Back Button -->
+        <Button
+            android:id="@+id/btnBackGuidelines"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Back to Home"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".CustomerSupportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="28dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Support"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_primary"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start a query and continue the conversation as a chat"
+            android:textSize="15sp"
+            android:textColor="@color/px_muted"
+            android:layout_marginTop="4dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/bg_white_card"
+            android:elevation="3dp"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/etSupportSubject"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Subject"
+                android:padding="14dp"
+                android:background="@drawable/bg_search_box"
+                android:inputType="text"
+                android:autofillHints="none"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/etSupportMessage"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Type your first message"
+                android:gravity="top"
+                android:padding="14dp"
+                android:background="@drawable/bg_search_box"
+                android:inputType="textMultiLine"
+                android:autofillHints="none"
+                android:layout_marginTop="12dp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnSubmitSupportQuery"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Start Support Chat"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="@drawable/bg_primary_button"
+                android:elevation="3dp"
+                android:layout_marginTop="16dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Support Chats"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_text"
+            android:layout_marginTop="26dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/customerQueriesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnBackHomeFromSupport"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Back to Home"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="24dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Orders"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_primary"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap an order to view full tracking details"
+            android:textSize="15sp"
+            android:textColor="@color/px_muted"
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout
+            android:id="@+id/ordersContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvCartTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Ordered Amount: Rs. 0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@drawable/bg_total_card"
+            android:layout_marginTop="22dp" />
+
+        <Button
+            android:id="@+id/btnRefreshOrders"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Refresh Orders"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginTop="28dp" />
+
+        <Button
+            android:id="@+id/btnBackHomeCart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Back to Home"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+</ScrollView>

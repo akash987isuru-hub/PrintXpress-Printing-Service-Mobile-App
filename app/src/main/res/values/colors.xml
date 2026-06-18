@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="px_primary">#123E91</color>
+    <color name="px_primary_dark">#0B2E6F</color>
+    <color name="px_accent">#FF9800</color>
+    <color name="px_accent_dark">#FF6A00</color>
+    <color name="px_background">#F5F7FB</color>
+    <color name="px_card">#FFFFFF</color>
+    <color name="px_text">#1F2937</color>
+    <color name="px_muted">#6B7280</color>
+    <color name="px_border">#E5E7EB</color>
+    <color name="px_danger">#D32F2F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

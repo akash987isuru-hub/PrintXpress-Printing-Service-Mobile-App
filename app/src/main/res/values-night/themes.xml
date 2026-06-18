@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.PrintXpress" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#123E91</item>
+        <item name="colorPrimaryVariant">#0B3D91</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#111827</item>
+        <item name="android:navigationBarColor">#111827</item>
+
+        <item name="android:windowAnimationStyle">@style/PrintXpressActivityAnimation</item>
+    </style>
+
+    <style name="Theme.PrintXpress" parent="Base.Theme.PrintXpress" />
+
+</resources>

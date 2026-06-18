@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".PrintXpressApp"
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="PrintXpress"
+        android:roundIcon="@drawable/images_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrintXpress">
+        <activity android:name=".AboutActivity" android:exported="false" />
+        <activity
+            android:name=".GuidelinesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CustomerSupportChatActivity" android:exported="false" />
+        <activity
+            android:name=".CustomerSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReplyQueryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSupportQueriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManagePromotionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewDesignsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCustomersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRevenueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderTrackingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductListActivity"
+            android:exported="false" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

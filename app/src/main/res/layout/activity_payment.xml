@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secure Payment"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_primary"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use dummy card details to complete your PrintXpress order"
+            android:textSize="15sp"
+            android:textColor="@color/px_muted"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvPaymentAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount to Pay: Rs. 0"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:gravity="center"
+            android:padding="18dp"
+            android:background="@drawable/bg_total_card"
+            android:layout_marginTop="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card Holder Name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_text"
+            android:layout_marginTop="22dp" />
+
+        <EditText
+            android:id="@+id/etCardHolderName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Example: ISURU AKASH"
+            android:padding="14dp"
+            android:background="@drawable/bg_input_box"
+            android:inputType="textPersonName"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card Number"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_text"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etCardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="16 digit dummy card number"
+            android:padding="14dp"
+            android:background="@drawable/bg_input_box"
+            android:inputType="number"
+            android:maxLength="16"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expiry"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/px_text" />
+
+                <EditText
+                    android:id="@+id/etExpiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="MM/YY"
+                    android:padding="14dp"
+                    android:background="@drawable/bg_input_box"
+                    android:inputType="text"
+                    android:maxLength="5"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CVV"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/px_text" />
+
+                <EditText
+                    android:id="@+id/etCvv"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="123"
+                    android:padding="14dp"
+                    android:background="@drawable/bg_input_box"
+                    android:inputType="numberPassword"
+                    android:maxLength="3"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prototype note: this is a dummy payment screen for assignment demonstration only. No real payment is processed."
+            android:textSize="13sp"
+            android:textColor="@color/px_muted"
+            android:padding="14dp"
+            android:background="@drawable/bg_white_card"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/btnPayNow"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Pay Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginTop="22dp" />
+
+        <Button
+            android:id="@+id/btnBackPayment"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Back to Summary"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+</ScrollView>

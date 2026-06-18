@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".AdminSupportQueriesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="28dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support Chat Inbox"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/px_primary"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open a query and continue the customer conversation"
+            android:textSize="15sp"
+            android:textColor="@color/px_muted"
+            android:layout_marginTop="4dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/supportQueriesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="22dp" />
+
+        <Button
+            android:id="@+id/btnRefreshSupportQueries"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Refresh Chats"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="24dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnBackAdminFromSupport"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Back to Admin Dashboard"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>

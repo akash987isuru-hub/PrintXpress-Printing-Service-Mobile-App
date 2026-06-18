@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_screen"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".ManageCategoriesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="28dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Product Categories"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#123E91"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add and view PrintXpress product categories"
+            android:textSize="15sp"
+            android:textColor="#6B7280"
+            android:layout_marginTop="4dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Category Name"
+            android:padding="14dp"
+            android:background="@drawable/bg_search_box"
+            android:inputType="text"
+            android:autofillHints="none"
+            android:layout_marginTop="22dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etCategoryDescription"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:hint="Category Description"
+            android:gravity="top"
+            android:padding="14dp"
+            android:background="@drawable/bg_search_box"
+            android:inputType="textMultiLine"
+            android:autofillHints="none"
+            android:layout_marginTop="12dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnAddCategory"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Add Category"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="18dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnBackAdminFromCategories"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Back to Admin Dashboard"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_primary_button"
+            android:elevation="3dp"
+            android:layout_marginTop="12dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Categories"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:layout_marginTop="24dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/categoriesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categories will load here"
+                android:textSize="15sp"
+                android:textColor="#6B7280"
+                android:background="@drawable/bg_white_card"
+                android:padding="16dp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
